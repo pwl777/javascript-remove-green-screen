@@ -1,0 +1,45 @@
+<!------ HTML Document - JavaScript - Remove Green Screen ------>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML - JavaScript - Remove Green Screen</title>
+    <!-- Meta Data Tags -->
+    <meta charset="UTF-8" />
+    <!-- Unicode Character Encoding -->
+    <meta name="description" content="JavaScript - Remove Green Screen" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Pierson Lippard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsive Viewport Background Tag -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- head end -->
+  </head>
+  <!-- BODY -->
+  <body>
+    <h1 id="title1">Remove Green Screen<br />JavaScript</h1>
+    <div class="container">
+      <div>
+        <video
+          id="video"
+          src="media/alpaca-03.mp4"
+          controls
+          muted
+          autoplay
+          loop
+        ></video>
+      </div>
+      <canvas id="c2" width="960" height="540"></canvas>
+      <canvas id="c1" width="960" height="540"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- JavaScript end -->
+  </body>
+  <!-- HTML body end -->
+</html>
